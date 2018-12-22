@@ -1,0 +1,100 @@
+.App {
+  text-align: center;
+}
+
+
+.App-header {
+
+}
+
+.page-header {
+    width: 80%;
+    position: fixed;
+    left:40px;
+ 
+    height: 60px;
+    padding: 5px;
+    background: #FF742B;
+    border: none;
+}
+.App-link {
+  color: #61dafb;
+}
+.logo {
+
+    float: left;
+    width: 54px;
+}
+img {
+  height: 46px;
+width:46px;
+}
+.searchbar{
+      float: left;
+    width: calc(90% - 230px);
+    margin-top: 3px;
+}
+.inputsearch {
+ padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  display: inline-block;
+  width: calc(100% - 100px);
+  margin-right: 5px;
+  position: relative;
+}
+i {
+    top: 8px;
+    left: 14px;
+    color: #FF742B;
+    font-size: 24px;
+  
+}
+.searchbutton{
+  float: right;
+  font-size: 17px;
+  position: absolute;
+  top: 13px;
+  left: 63px;
+  font-size: 24px;
+  background-color: white;
+  border: none;
+}
+
+.mainbody {
+  position: fixed;
+  top: 55px;
+  left: 110px;
+  padding: 5px;
+  padding-left: 30px;
+
+}
+@media screen and (min-width: 1200px){
+  .page-header {
+      left: 10%;
+      right: 10%;
+  }
+}
+.selector{
+  display: inline-block;
+  position: relative;
+  font-size: 13px;
+  line-height: 32px;
+  text-align: left;
+  padding: 0 20px 0 8px;
+  margin: 0 8px 0 2px;
+  border: solid 1px #c3c3c3;
+  border-radius: 3px;
+  cursor: pointer;
+  outline: none;
+  color: #5C5C5C;
+  background-color: white;
+  z-index: 3;
+  -webkit-user-select: none; 
+}
+.loginform{
+  position: relative;
+  top: 100px;
+  left:80px;
+}
